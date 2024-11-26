@@ -40,4 +40,4 @@ def predict_image(model, img_path):
     return "Biodegradable" if prediction < 0.5 else "Non-Biodegradable"
 
 # Example usage
-print(predict_image(model, 'path_to_image.jpg'))
+print(predict_image(model, 'water.jpg'))
